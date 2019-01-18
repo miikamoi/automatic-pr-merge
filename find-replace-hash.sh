@@ -9,7 +9,7 @@ usage(){
     echo
     echo "  Example: "
     echo   
-    echo "  ./find-replace-hash.sh -o 47d7ffa986d06c530d6660abca775ca7 -n 9939022e0a4a690017c071350ca5347c" 
+    echo "  ./find-replace-hash.sh -o 47d7ffa986d06c530d6660abca775ca7 -n 12345678909876543212354567890987" 
     echo
     echo
     echo
