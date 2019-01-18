@@ -9,7 +9,7 @@ usage(){
     echo
     echo "  Example: "
     echo   
-    echo "  ./find-replace-hash.sh -o 47d7ffa986d06c530d6660abca775ca7 -n 12345678909876543212354567890987" 
+    echo "  ./find-replace-hash.sh -o 47d7ffa986d06c530d6660abca775ca7 -n 9939022e0a4a690017c071350ca5347c" 
     echo
     echo
     echo
@@ -43,7 +43,7 @@ while getopts ":o:n:" opt; do
 done
 
 #Variables
-GIT_TOKEN="d6aeb8c2537a196aef2fef57de1855d52a44d423"
+GIT_TOKEN="75dc5d6e69e2042c832246df8263af428be5a4bd"
 #Get conf.d folder inside sensu-server
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 SENSUCONF=$(echo "$SCRIPT_DIR")
